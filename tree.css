@@ -1,0 +1,25 @@
+body{
+    background: #007065;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 0px;
+    height: 0px;
+    border-right: 125px solid transparent;
+    border-left: 125px solid transparent;
+    border-bottom: 100px solid #ffeecf;
+    position: absolute;
+}
+p[a] {
+    top: 34px;
+}
+p[b] {
+    top: 84px;
+    border-bottom-color: #f5c181;
+}
+p[c] {
+    top: 134px;
+    border-bottom-color: #00a790;
+}

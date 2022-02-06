@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float:left;
+    height:70px;
+    
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out ;
+}
+
+ul li a:hover{
+    color: tomato;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: thistle;
+    position: relative;
+}
+
+
+.content .par{
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #cc5933;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: blanchedalmond;
+}
+
+.content span{
+    color:blue;
+    font-size: 60px;
+}
+nav{
+    position: fixed;
+    width: 70px;
+    margin-top: 150px;
+}
+nav li{
+    height: 60px;
+    position: relative;
+}
+nav li a{
+    color: rgb(235, 20, 138);
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-left: 25%;
+}
+nav li a i{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+}
